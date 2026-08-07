@@ -1,0 +1,107 @@
+PS E:\Desktop\DALVIK APPS\C++\Hands-on> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 1\" ; if ($?) { g++ pre_1.cpp -o pre_1 } ; if ($?) { .\pre_1 }
+----- Complex Number Addition -----
+c1 = 3.5 + 4.2i
+c2 = 1.5 + 2.8i
+
+----- Complex Number Equality -----
+c1 and c4 are equal.
+c1 and c2 are NOT equal.
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 1> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 1\" ; if ($?) { g++ pre_2.cpp -o pre_2 } ; if ($?) { .\pre_2 }
+----- Complex + Complex (friend function) -----
+5 + 7i
+
+----- int + Complex (only possible via friend function) -----
+5.5 + 4.2i
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 1> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 1\" ; if ($?) { g++ pre_3.cpp -o pre_3 } ; if ($?) { .\pre_3 }
+c1 = 3.5 + 4.2i
+c2 = 1.5 + 2.8i
+c1 + c2 = 5 + 7i
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 1> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 2\" ; if ($?) { g++ pre_4.cpp -o pre_4 } ; if ($?) { .\pre_4 }
+(Inside Employee) Accessing protected members -> Name: Rohan Patil, Age: 28
+
+----- Employee Details -----
+Name: Rohan Patil | Age: 28 | Salary: 45000 | Department: IT
+(Inside Employee) Accessing protected members -> Name: Rohan Patil, Age: 28
+
+----- Employee Details -----
+Name: Rohan Patil | Age: 28 | Salary: 45000 | Department: IT
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 2> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 2\" ; if ($?) { g++ pre_5.cpp -o pre_5 } ; if ($?) { .\pre_5 }
+Creating Employee object...
+
+Person Constructor called -> Name: Sneha Kulkarni, Age: 26
+Employee Constructor called -> Salary: 52000, Department: HR
+----- Employee Details -----
+Name: Sneha Kulkarni | Age: 26 | Salary: 52000 | Department: HR
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 2> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 2\" ; if ($?) { g++ pre_6.cpp -o pre_6 } ; if ($?) { .\pre_6 }
+----- HAS-A: Employee contains an Address object -----
+Employee: Kiran Joshi | Salary: 40000
+Address: Mumbai, Maharashtra - 400001
+
+----- Manager Details (Manager IS-A Employee) -----
+Employee: Ananya Rao | Salary: 75000
+Address: Mumbai, Maharashtra - 400001
+Team Size: 8
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 2> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 2\" ; if ($?) { g++ pre_7.cpp -o pre_7 } ; if ($?) { .\pre_7 }
+----- Public Inheritance -----
+PublicDerived -> protectedVar=20, publicVar=30
+pubObj.publicVar accessed directly in main(): 30
+
+----- Private Inheritance -----
+PrivateDerived -> protectedVar=20, publicVar=30
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 2> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 2\" ; if ($?) { g++ pre_8.cpp -o pre_8 } ; if ($?) { .\pre_8 }
+----- Area of Each Shape -----
+Circle Area    : 153.938
+Rectangle Area : 20
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 2> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 3\" ; if ($?) { g++ pre_9.cpp -o pre_9 } ; if ($?) { .\pre_9 }
+----- Calling area() via Base Class Pointer (non-virtual) -----
+Circle: generic Shape::area() called -> Circle area (via Shape* )   : 0
+Rectangle: generic Shape::area() called -> Rectangle area (via Shape*) : 0
+Triangle: generic Shape::area() called -> Triangle area (via Shape*)  : 0
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 3> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 3\" ; if ($?) { g++ pre_10.cpp -o pre_10 } ; if ($?) { .\pre_10 }
+----- Calling area() via Base Class Pointer (virtual) -----
+Circle area (via Shape*)   : 153.938
+Triangle area (via Shape*) : 24
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 3> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 3\" ; if ($?) { g++ pre_11.cpp -o pre_11 } ; if ($?) { .\pre_11 }
+----- Runtime Polymorphism: Area of Different Shapes -----
+Circle Area: 153.938
+Rectangle Area: 20
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 3> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 4\" ; if ($?) { g++ per_13_A.cpp -o per_13_A } ; if ($?) { .\per_13_A }
+----- Comparing private members of two different classes -----
+Box1 distance: 15.5
+Box2 distance: 20.3
+Box2 has greater distance.
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 4> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 4\" ; if ($?) { g++ pre_13_B.cpp -o pre_13_B } ; if ($?) { .\pre_13_B }
+----- Friend Class Demonstration -----
+Inspecting Engine...
+Horsepower: 120
+Status: Passed inspection.
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 4> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 4\" ; if ($?) { g++ pre_14.cpp -o pre_14 } ; if ($?) { .\pre_14 }
+----- Creating Counter objects -----
+Object created. Current count: 1
+Object created. Current count: 2
+Object created. Current count: 3
+
+----- Total objects created (via static function) -----
+Total count: 3
+Total count (via c1): 3
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 4> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 4\" ; if ($?) { g++ pre_15.cpp -o pre_15 } ; if ($?) { .\pre_15 }
+----- Creating a Car (which internally creates its Engine) -----
+
+----- Car Details -----
+Model: Tata Nexon
+Engine Horsepower: 120 HP
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 4> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 4\" ; if ($?) { g++ pre_16.cpp -o pre_16 } ; if ($?) { .\pre_16 }
+----- Exception Propagation Between Functions -----
+main(): calling processDivision(10, 2)
+processDivision(): about to call divide(10, 2)
+processDivision(): division successful.
+Result: 5
+
+main(): calling processDivision(5, 0)
+processDivision(): about to call divide(5, 0)
+
+Exception caught in main(): Division by zero is not allowed!
+
+Program continues normally after handling the exception.
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -2\session - 4> 

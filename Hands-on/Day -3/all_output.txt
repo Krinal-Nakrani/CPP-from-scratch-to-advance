@@ -1,0 +1,344 @@
+PS E:\Desktop\DALVIK APPS\C++\Hands-on> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 1\" ; if ($?) { g++ pre_1_A.cpp -o pre_1_A } ; if ($?) { .\pre_1_A }
+----- Template Function: getMax -----
+Max of int (15, 27) = 27
+Max of float (5.6, 3.2) = 5.6
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 1> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 1\" ; if ($?) { g++ pre_1_B.cpp -o pre_1_B } ; if ($?) { .\pre_1_B }
+----- Template Class: Pair<T> -----
+Pair -> First: 10, Second: 20
+Pair -> First: 3.5, Second: 7.8
+Pair -> First: Hello, Second: World
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 1> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 1\" ; if ($?) { g++ pre_2.cpp -o pre_2 } ; if ($?) { .\pre_2 }
+----- const Variable -----
+PI = 3.14159
+----- const Member Function -----
+Circle Area: 78.5397
+
+----- const Reference Parameter -----
+Area (via const reference): 78.5397
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 1> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 1\" ; if ($?) { g++ pre_3_A.cpp -o pre_3_A } ; if ($?) { .\pre_3_A }
+Enter a number: 2
+----- Macro: SQUARE -----
+Square of 2 = 4
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 1> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 1\" ; if ($?) { g++ pre_3_B.cpp -o pre_3_B } ; if ($?) { .\pre_3_B }
+[DEBUG] a = 10, b = 20
+[DEBUG] Calculating sum...
+Sum = 30
+[INFO] Running in non-release mode.
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 1> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 1\" ; if ($?) { g++ pre_4.cpp -o pre_4 } ; if ($?) { .\pre_4 }
+----- Accessing via Scope Resolution Operator (::) -----
+Math::PI    = 3.14159
+Physics::PI = 3.14
+Wave Energy (Physics::calculateWaveEnergy): 12.56
+
+----- Using 'using namespace' directive -----
+PI (from Math, via using namespace) = 3.14159
+circleArea(4) = 50.2654
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 1> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 1\" ; if ($?) { g++ pre_5.cpp -o pre_5 } ; if ($?) { .\pre_5 }
+----- WITHOUT virtual destructor (problem) -----
+Base Constructor called.
+Derived Constructor called.
+Base Destructor called.
+----- WITH virtual destructor (fixed) -----
+BaseFixed Constructor called.
+DerivedFixed Constructor called.
+DerivedFixed Destructor called.
+BaseFixed Destructor called.
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 2> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 2\" ; if ($?) { g++ pre_6.cpp -o pre_6 } ; if ($?) { .\pre_6 }
+----- Enter details of 3 students -----
+Enter name of student 1: krinal
+Enter marks of student 1: 45
+Enter name of student 2: shreya
+Enter marks of student 2: 56
+Enter name of student 3: diya
+Enter marks of student 3: 45
+
+Data written to students.txt successfully.
+
+Name: krinal | Marks: 45
+Name: shreya | Marks: 56
+Name: diya | Marks: 45
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 2> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 2\" ; if ($?) { g++ pre_7.cpp -o pre_7 } ; if ($?) { .\pre_7 }
+----- Enter details of 3 employees -----
+
+Employee 1:
+ID: 03
+Name: krinal
+Salary: 50000
+
+Employee 2:
+ID: 3
+Name: shreya
+Salary: 45000
+
+Employee 3:
+ID: 34
+Name: diya
+Salary: 8000
+
+Employee records written to employees.dat successfully.
+
+----- Employee Records from Binary File -----
+ID: 3 | Name: krinal | Salary: 50000
+ID: 3 | Name: shreya | Salary: 45000
+ID: 34 | Name: diya | Salary: 8000
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 2> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 2\" ; if ($?) { g++ pre_8.cpp -o pre_8 } ; if ($?) { .\pre_8 }
+----- Formatted Student Marks Table -----
+Name                     Marks
+------------------------------
+Aarav Mehta              88.50
+Diya Sharma              92.75
+Kabir Singh              76.33
+Isha Patil               65.90
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 3\" ; if ($?) { g++ pre_9_A.cpp -o pre_9_A } ; if ($?) { .\pre_9_A }
+Enter number of elements: 3
+Enter 3 numbers: 12 2 1
+
+----- Before Sorting -----
+12 2 1 
+1 2 12 
+
+Total elements (size): 3
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 3> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 3\" ; if ($?) { g++ pre_9_B.cpp -o pre_9_B } ; if ($?) { .\pre_9_B }
+----- After Insertions -----
+
+----- After Deletions (pop_front & pop_back) -----
+List contents: 5 10 
+
+Is list empty? No
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 3> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 3\" ; if ($?) { g++ pre_10_A.cpp -o pre_10_A } ; if ($?) { .\pre_10_A }
+Enter a string: krinal
+Original String: krinal
+ 
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 3> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 3\" ; if ($?) { g++ tempCodeRunnerFile.cpp -o tempCodeRunnerFile } ; if ($?) { .\tempCodeRunnerFile }
+tempCodeRunnerFile.cpp:1:1: error: 'ticketQueue' does not name a type
+ ticketQueue
+ ^~~~~~~~~~~
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 3> g++ "pre_10_B.cpp" -o output                                                                                               
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 3> ./output                                                                                                                   
+                                   
+----- Ticket Counter Menu -----
+1. Add person to queue
+2. Serve next person
+3. Display queue
+4. Exit
+Enter choice: 1
+Enter person's name: krinal
+krinal added to the queue.
+
+----- Ticket Counter Menu -----
+1. Add person to queue
+2. Serve next person
+4. Exit
+Enter choice: 1diya
+Enter person's name: diya added to the queue.
+
+----- Ticket Counter Menu -----
+1. Add person to queue
+2. Serve next person
+3. Display queue
+4. Exit
+Enter choice: 3
+Current queue (front to back): krinal diya 
+
+----- Ticket Counter Menu -----
+1. Add person to queue
+2. Serve next person
+3. Display queue
+4. Exit
+Enter choice: 4
+Exiting simulation.
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 3> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 3\" ; if ($?) { g++ pre_11.cpp -o pre_11 } ; if ($?) { .\pre_11 }
+----- After Insertion -----
+Aarav : 88
+Diya : 92
+Kabir : 76
+
+----- Searching for 'Diya' -----
+Found -> Diya : 92
+
+----- Searching for 'Isha' (not present) -----
+Isha not found in the map.
+
+----- Updating Kabir's marks -----
+Kabir's updated marks: 80
+
+----- Final Map Contents (sorted by key) -----
+Aarav -> 88 marks
+Diya -> 92 marks
+Kabir -> 80 marks
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 3> 
+PS E:\Desktop\DALVIK APPS\C++\Hands-on> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 4\" ; if ($?) { g++ pre_12_A.cpp -o pre_12_A } ; if ($?) { .\pre_12_A }
+----- Using explicit iterator type -----
+45 12 78 23 56 
+
+----- Using 'auto' instead -----
+45 12 78 23 56 
+
+----- Using 'auto' in range-based for loop -----
+45 12 78 23 56 
+
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 4> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 4\" ; if ($?) { g++ pre_12_B.cpp -o pre_12_B } ; if ($?) { .\pre_12_B }
+This is a Vehicle.
+
+----- final virtual function demonstration -----
+Shape::draw() - final, cannot be overridden.
+Circle::describe() - overridden successfully.
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 4\" ; if ($?) { g++ pre_13_A.cpp -o pre_13_A } ; if ($?) { .\pre_13_A }
+----- Lambda: Addition -----
+add(5, 3) = 8
+add(10, 20) = 30
+
+multiplyByFactor(7) = 28
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 4> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 4\" ; if ($?) { g++ pre_13_B.cpp -o pre_13_B } ; if ($?) { .\pre_13_B }
+45 12 78 23 56 8 
+
+----- After Sorting (Descending) -----
+78 56 45 23 12 8 
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 4> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 4\" ; if ($?) { g++ pre_14.cpp -o pre_14 } ; if ($?) { .\pre_14 }
+----- unique_ptr demonstration -----
+Student 'Rohan' created.
+Student Name: Rohan
+Student 'Rohan' destroyed.
+(unique_ptr's scope has ended - Student was automatically destroyed above)
+
+----- shared_ptr demonstration -----
+Student 'Meera' created.
+Reference count after s3 = s2: 2
+Student Name: Meera
+Reference count after s3 went out of scope: 1
+Student 'Meera' destroyed.
+(shared_ptr's scope has ended - Student was automatically destroyed above)
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 4> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 4\" ; if ($?) { g++ pre_15.cpp -o pre_15 } ; if ($?) { .\pre_15 }
+----- Using default constructor (fully delegated) -----
+Primary Constructor called -> timeout=30, mode=default, logging=0
+Delegating Constructor (default) called.
+Config -> timeout=30, mode=default, loggingEnabled=false
+
+----- Using 2-argument constructor (delegates to 3-arg) -----
+Primary Constructor called -> timeout=60, mode=verbose, logging=0
+Delegating Constructor (2-arg) called.
+Config -> timeout=60, mode=verbose, loggingEnabled=false
+
+----- Using full 3-argument constructor directly -----
+Primary Constructor called -> timeout=90, mode=silent, logging=1
+Config -> timeout=90, mode=silent, loggingEnabled=true
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 4> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 4\" ; if ($?) { g++ pre_16.cpp -o pre_16 } ; if ($?) { .\pre_16 }
+----- Variadic Function: sum() -----
+sum(3, 10, 20, 30) = 60
+sum(5, 1, 2, 3, 4, 5) = 15
+sum(2, 100, 200) = 300
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 5\" ; if ($?) { g++ pre_17.cpp -o pre_17 } ; if ($?) { .\pre_17 }
+----- Number System Converter -----
+Select SOURCE format:
+1. Decimal  2. Binary  3. Octal  4. Hexadecimal
+Enter choice: 1
+Enter Decimal number: 1118914112
+
+Equivalent Decimal value: 1118914112
+
+----- Converted Values -----
+Decimal     : 1118914112
+Binary      : 01000010101100010100011001000000
+Hexadecimal : 42b14640
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 5> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 5\" ; if ($?) { g++ pre_18.cpp -o pre_18 } ; if ($?) { .\pre_18 }
+----- Size of Data Types (in bytes) -----
+int        : 4 bytes
+short      : 2 bytes
+long       : 4 bytes
+long long  : 8 bytes
+float      : 4 bytes
+double     : 8 bytes
+
+----- Range of Integer Types -----
+int        : -2147483648 to 2147483647
+short      : -32768 to 32767
+long       : -2147483648 to 2147483647
+
+----- Range of Floating-Point Types -----
+float      : 1.17549e-038 to 3.40282e+038
+double     : 2.22507e-308 to 1.79769e+308
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 5> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 5\" ; if ($?) { g++ pre_19.cpp -o pre_19 } ; if ($?) { .\pre_19 }
+----- Integer Literals (all represent the same value, different bases) -----
+Decimal literal (100)  : 100
+Octal literal (0144)   : 100  (interpreted as decimal 100)
+Hex literal (0x64)     : 100  (interpreted as decimal 100)
+
+----- Character Literal -----
+charLit = 'A'  (ASCII value: 65)
+
+----- Floating-Point Literals -----
+float literal (3.14f)         : 3.14
+double literal (3.14159265..) : 3.14159
+
+----- String Literal -----
+stringLit = Hello, C++!
+
+
+PS E:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 5> cd "e:\Desktop\DALVIK APPS\C++\Hands-on\Day -3\session - 5\" ; if ($?) { g++ pre_20.cpp -o pre_20 } ; if ($?) { .\pre_20 }
+----- Combination 1: Derived default -> Base default -----
+Vehicle Default Constructor called -> type: Generic Vehicle
+Car Default Constructor called -> brand: Unknown Brand
+   -> Final Car: Type=Generic Vehicle, Brand=Unknown Brand
+
+----- Combination 2: Derived default -> Base parameterized -----
+Vehicle Parameterized Constructor called -> type: Four-Wheeler
+Car Default(ish) Constructor called (forcing base parameterized) -> brand: Unknown Brand
+   -> Final Car: Type=Four-Wheeler, Brand=Unknown Brand
+
+----- Combination 3: Derived parameterized -> Base default -----
+Vehicle Parameterized Constructor called -> type: Four-Wheeler
+Car Default(ish) Constructor called (forcing base parameterized) -> brand: Unknown Brand
+   -> Final Car: Type=Four-Wheeler, Brand=Unknown Brand
+
+----- Combination 4: Derived parameterized -> Base parameterized -----
+Vehicle Parameterized Constructor called -> type: Sedan
+Car Parameterized Constructor called (base parameterized) -> brand: Honda
+   -> Final Car: Type=Sedan, Brand=Honda
