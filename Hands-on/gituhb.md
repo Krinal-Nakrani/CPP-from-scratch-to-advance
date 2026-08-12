@@ -25,7 +25,7 @@ git init
 ```
 
 ## Step 5: Add a `.gitignore` (Recommended)
-Since your folder has compiled `.exe` files mixed with source `.cpp` files, it's cleaner to exclude executables from being uploaded. Create a file named `.gitignore` in the root folder with this content:
+If your folder has compiled `.exe` files mixed with source `.cpp` files, it's cleaner to exclude executables from being uploaded. Create a file named `.gitignore` in the root folder with this content:
 ```
 *.exe
 *.out
@@ -35,7 +35,7 @@ This keeps your repo clean with just source code, docs, and PDFs — not compile
 
 ## Step 6: Connect to Your GitHub Repository
 ```bash
-git remote add origin https://github.com/Krinal-Nakrani/CPP-from-scratch-to-advance.git
+git remote add origin your_repository_link
 ```
 
 ## Step 7: Stage All Files
@@ -45,7 +45,7 @@ git add .
 
 ## Step 8: Commit the Files
 ```bash
-git commit -m "Initial commit: C++ 3-day FDP curriculum, lab manual, and hands-on practicals"
+git commit -m "Initial commit: C++ 3-day lab manual, and hands-on practicals"
 ```
 
 ## Step 9: Set the Branch Name (if needed)
