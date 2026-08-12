@@ -1,6 +1,7 @@
 // Practical 9 — Strings
 // Part A: Count Vowels, Consonants, Digits & Spaces
-// Problem Statement: Write a program to count the number of vowels, consonants, digits, and spaces in a given string.
+// Problem Statement: Write a program to count the number of vowels, consonants, digits, and spaces 
+// in a given string.
 
 #include <iostream>
 #include <cstring>
@@ -9,7 +10,7 @@ using namespace std;
 int main() {
     char str[200];
     cout << "Enter a string: ";
-    cin.getline(str, 200);
+    cin.getline(str, 200);             //cin.getline() is a member function of cin used to read an entire line of text, including spaces, into a char array (C-string) — unlike plain cin >>, which stops reading at the first whitespace.
 
     int vowels = 0, consonants = 0, digits = 0, spaces = 0;
     int len = strlen(str);
