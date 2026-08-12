@@ -1,5 +1,13 @@
 // Part C: Check if Two Strings are Anagrams
 // Problem Statement: Write a program to check if two strings are anagrams of each other.
+// Examples
+// String 1	   String 2	   Anagram?
+// listen	   silent	   ✅ Yes — same letters: l,i,s,t,e,n rearranged
+// heart	   earth	   ✅ Yes — same letters: h,e,a,r,t rearranged
+// race	       care	       ✅ Yes — same letters: r,a,c,e rearranged
+// hello   	   world	   ❌ No — completely different letters
+// dog	       god	       ✅ Yes — same letters: d,o,g rearranged
+
 
 #include <iostream>
 #include <cstring>

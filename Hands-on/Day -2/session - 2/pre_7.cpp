@@ -6,11 +6,11 @@ using namespace std;
 
 class Base {
 private:
-    int privateVar = 10;
+    int privateVar = 10;   // Only accessible within Base class
 protected:
-    int protectedVar = 20;
+    int protectedVar = 20;   // Accessible within Base and derived classes
 public:
-    int publicVar = 30;
+    int publicVar = 30;   // Accessible from anywhere
 
     void show() {
         cout << "privateVar=" << privateVar
