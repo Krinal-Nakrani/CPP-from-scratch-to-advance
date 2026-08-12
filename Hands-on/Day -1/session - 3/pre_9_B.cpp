@@ -1,5 +1,5 @@
 // Part B: Reverse a String (Without Built-in Function)
-// Problem Statement: Write a program to reverse a string without using a built-in reverse function.
+// Problem Statement: Write a program to reverse a string without using any built-in reverse function.
 
 #include <iostream>
 #include <cstring>
