@@ -8,7 +8,6 @@
 // hello   	   world	   ❌ No — completely different letters
 // dog	       god	       ✅ Yes — same letters: d,o,g rearranged
 
-
 #include <iostream>
 #include <cstring>
 using namespace std;
