@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    string names[4] = {"Aarav Mehta", "Diya Sharma", "Kabir Singh", "Isha Patil"};
+    string names[4] = {"Aarav Mehta", "Diya Sharma", "Kabir jadav", "Isha Patil"};
     float marks[4] = {88.5, 92.75, 76.333, 65.9};
 
     cout << "----- Formatted Student Marks Table -----" << endl;
