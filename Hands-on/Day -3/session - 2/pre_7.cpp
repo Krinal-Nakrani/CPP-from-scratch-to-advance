@@ -21,7 +21,7 @@ int main() {
         return 1;
     }
 
-    int n = 3;
+    int n = 4;
     Employee emp;
 
     cout << "----- Enter details of " << n << " employees -----" << endl;
