@@ -6,11 +6,11 @@ using namespace std;
 
 int main() {
     int choice;
-    float num1, num2, result;
+    int num1, num2, result;
 
     cout << "----- Menu -----" << endl;
-    cout << "1. Addition\n2. Subtraction\n3. Multiplication\n4. Division" << endl;
-    cout << "Enter your choice (1-4): ";
+    cout << "1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Modulo" << endl;
+    cout << "Enter your choice (1-5): ";
     cin >> choice;
 
     cout << "Enter two numbers: ";
@@ -34,6 +34,15 @@ int main() {
                 result = num1 / num2;
                 cout << "Result: " << result << endl;
             } else {
+                cout << "Error: Division by zero!" << endl;
+            }
+            break;
+        case 5:
+            if (num2 != 0) {
+                result = num1 % num2;
+                cout << "Result: " << result << endl;
+            }
+            else {
                 cout << "Error: Division by zero!" << endl;
             }
             break;
